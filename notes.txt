@@ -1,0 +1,13 @@
+table => branches , rooms , users(admins , customers)
+branches => branch_number , number_of_rooms 
+
+========================================================================
+Maadi branch => 10 rooms -- 5 single - 3 double - 2 suites
+Nasr city branch => 15 rooms -- 10 single - 3 double - 2 suites
+Helwan branch => 20 rooms -- 10 single - 5 double - 5 suites
+single => 50$ for one night | size= 1 person
+double => 35$ for one night | size= 2 persons
+suite => 25$ for one night  | size= 4 persons
+========================================================================
+room => breanch , room_numer , size , duration , price
+user=> name, email , pw , phone, role(admin,customer) , booked_room(null)

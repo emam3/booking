@@ -1,0 +1,5 @@
+1-when you lunch the project, you have to register first
+2-the first one will register will be the one and only admin
+3-rest of registers will be customers
+4-admin can add new branches and rooms to the branches
+5-user can only book rooms
